@@ -1,0 +1,29 @@
+h1{
+    color: darkslategrey;
+}
+
+.title-container{
+    background-color: crimson;
+    color: white;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    background-color: cornflowerblue;
+}
+
+#special-title{
+    color: brown;
+}
+
+#other-special-title {
+    color: cornflowerblue;
+}
