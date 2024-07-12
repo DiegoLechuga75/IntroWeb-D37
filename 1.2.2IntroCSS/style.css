@@ -1,5 +1,6 @@
-h1{
-    color: darkslategrey;
+html{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 .title-container{
@@ -14,14 +15,37 @@ h1{
     border-radius: 5px;
 }
 
+.ems{
+    font-size: 20px;
+}
+
+.rems{
+    font-size: 20px;
+}
+
+.ems h1{
+    font-size: 2em;
+}
+
+.rems h1{
+    font-size: 2rem;
+}
+
 .box:hover{
     transform: scale(1.1);
     transition: 200ms;
     background-color: cornflowerblue;
 }
 
+.pseudo-test::first-letter{
+    color: crimson;
+    font-size: 4rem;
+}
+
 #special-title{
     color: brown;
+    text-align: center;
+    text-decoration: line-through;
 }
 
 #other-special-title {
