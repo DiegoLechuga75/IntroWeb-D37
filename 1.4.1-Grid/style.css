@@ -1,0 +1,45 @@
+header{
+    grid-area: header;
+    height: 10rem;
+    width: 10rem;
+    background-color: orange;
+}
+
+main{
+    grid-area: main;
+    height: 10rem;
+    width: 10rem;
+    background-color: cornflowerblue;
+}
+
+aside{
+    grid-area: aside;
+    height: 10rem;
+    width: 10rem;
+    background-color: gold;
+}
+
+footer{
+    grid-area: footer;
+    height: 10rem;
+    width: 10rem;
+    background-color: crimson;
+}
+
+.container{
+    height: 50rem;
+    width: 50rem;
+    display: grid;
+    gap: 1rem 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header header"
+        "main main . aside"
+        "footer footer footer footer"
+    ;
+    place-items: center;
+    justify-content: center;
+}
+
+
